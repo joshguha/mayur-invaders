@@ -749,19 +749,19 @@ let createEnemies = function (speed) {
 // levels differ by the speed of the enemies and the number of lives of some enemies
 let level1 = function () {
   level = 1;
-  let speed = 2 * getSpeedReductionMultiplier();
+  let speed = 1 * getSpeedReductionMultiplier();
   createEnemies(speed);
 };
 
 let level2 = function () {
   level = 2;
-  let speed = 3 * getSpeedReductionMultiplier();
+  let speed = 1.5 * getSpeedReductionMultiplier();
   createEnemies(speed);
 };
 
 let level3 = function () {
   level = 3;
-  let speed = 4 * getSpeedReductionMultiplier();
+  let speed = 2 * getSpeedReductionMultiplier();
   createEnemies(speed);
 };
 
